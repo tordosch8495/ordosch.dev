@@ -3,39 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ordosch.dev - Startseite</title>
+    <title>ordosch.dev - IT, Forstwirtschaft & Holzarbeiten</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Willkommen bei ordosch.dev</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Startseite</a></li>
-                <li><a href="about.html">Über uns</a></li>
-                <li><a href="services.html">Leistungen</a></li>
-                <li><a href="contact.html">Kontakt</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Willkommen bei ordosch.dev</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Startseite</a></li>
+                    <li><a href="about.html">Über uns</a></li>
+                    <li><a href="services.html">Leistungen</a></li>
+                    <li><a href="contact.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section>
-            <h2>IT-Support, Forstwirtschaft und Holzarbeiten</h2>
-            <p>Wir bieten eine Vielfalt von Dienstleistungen an, die Ihre IT-Systeme, Waldpflege und handgemachte Holzprodukte umfassen. Jeder Service wird mit Leidenschaft ausgeführt.</p>
+        <section class="intro">
+            <div class="container">
+                <h2>IT-Support, Forstwirtschaft und Holzarbeiten</h2>
+                <p>Wir bieten professionelle IT-Dienstleistungen, umfassende Forstpflege sowie einzigartige handgemachte Holzprodukte. Lassen Sie sich von unserer Leidenschaft und Expertise überzeugen!</p>
+                <a href="services.html" class="btn">Mehr erfahren</a>
+            </div>
         </section>
-        <section>
-            <h2>Unsere Angebote</h2>
-            <ul>
-                <li>IT-Support</li>
-                <li>Wald- und Forstpflege</li>
-                <li>Holzarbeiten</li>
-            </ul>
+
+        <section class="services">
+            <div class="container">
+                <h2>Unsere Dienstleistungen</h2>
+                <div class="service-item">
+                    <h3>IT-Support</h3>
+                    <p>Wir bieten umfassende IT-Beratung, Installation und Wartung für Unternehmen und Privathaushalte.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Forstpflege</h3>
+                    <p>Von der Pflanzung bis zur Ernte – wir bewirtschaften und pflegen Ihren Wald professionell.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Holzarbeiten</h3>
+                    <p>Handgefertigte Unikate aus Holz – Uhren, Schlüsselbretter und vieles mehr, auf Wunsch aus eigenem Holz.</p>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 ordosch.dev - Alle Rechte vorbehalten.</p>
+        <div class="container">
+            <p>&copy; 2024 ordosch.dev - Alle Rechte vorbehalten.</p>
+        </div>
     </footer>
 </body>
 </html>
