@@ -1,40 +1,11 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SimpleCart Webshop</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplecartjs/3.0.6/simplecart.min.css">
-</head>
-<body>
-    <h1>Willkommen in unserem Webshop</h1>
-
-    <div class="product">
-        <img src="https://via.placeholder.com/150" alt="Produktbild">
-        <h2>Produktname</h2>
-        <p>Beschreibung des Produkts</p>
-        <span class="price">19.99 €</span>
-        <a href="javascript:;" class="simpleCart_add" data-name="Produktname" data-price="19.99">In den Warenkorb</a>
-    </div>
-
-    <!-- Warenkorb anzeigen -->
-    <div>
-        <h2>Ihr Warenkorb</h2>
-        <div class="simpleCart_items"></div>
-        <p>Total: <span class="simpleCart_total"></span></p>
-        <a href="javascript:;" class="simpleCart_checkout">Zur Kasse</a>
-    </div>
-
-    <!-- Einbinden von SimpleCart.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplecartjs/3.0.6/simplecart.min.js"></script>
-    <script>
-        simpleCart({
-            checkout: {
-                type: "PayPal",
-                email: "tobias.ordosch@gmx.de"
-            },
-            currency: "EUR"
-        });
-    </script>
-</body>
-</html>
+<div id="my-store-109323038"></div>
+<script src="https://app.ecwid.com/script.js?109323038&data_platform=code&data_date=2024-10-17" charset="utf-8"></script>
+<script type="text/javascript">
+    xProductBrowser(
+        "categoriesPerRow=3",
+        "views=grid(20,3) list(60) table(60)",
+        "categoryView=grid",
+        "searchView=list",
+        "id=my-store-109323038"
+    );
+</script>
