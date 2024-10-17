@@ -1,15 +1,28 @@
+/* Global Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f0f0f0;
+    color: #333;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
 header {
     background-color: #333;
     color: white;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
 }
 
 nav ul {
@@ -25,18 +38,71 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
+/* Main Content Styles */
 main {
-    padding: 20px;
+    padding: 20px 0;
 }
 
+.intro {
+    background-color: #007BFF;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 2rem;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #e68a00;
+}
+
+.services {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.service-item {
+    margin-bottom: 20px;
+}
+
+.service-item h3 {
+    font-size: 1.5rem;
+    color: #007BFF;
+}
+
+/* Footer Styles */
 footer {
     background-color: #333;
     color: white;
+    padding: 20px 0;
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
+
+footer p {
+    margin: 0;
+}
+
